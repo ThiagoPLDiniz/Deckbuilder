@@ -2,7 +2,7 @@ import psycopg2
 import pprint
 
 try:
-	conn = psycopg2.connect(dbname='deckbuilder', user='postgres', host='localhost', password='frumello1');
+	conn = psycopg2.connect(dbname='deckbuilder', user='postgres', host='localhost', password='**********');
 	conexao = conn.cursor()
 	print "Conectado!\n"
 except:
